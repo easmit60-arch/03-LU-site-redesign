@@ -3,30 +3,86 @@ body {
   color: rgb(234, 239, 255);
   text-align: center;
   background-color: rgb(224, 248, 247);
-  font-family: "Arial", "Helvetica", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Arial", "Helvetica", 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
   font: size 16px;;
-  color-scheme: #0C0849:
+  color-scheme: #0C0849;
+
 }
 
 /* Typography */
+h1 { font-size: 50px;
+  margin: 0;
+}
+h2 { font-size: 32px;
+  margin-bottom: 28px;
+  text-align: center;
 
+}
+h3 { font-size: 21px;
+  margin: 11px 0;
+
+}
+p { margin-bottom: 16px;
+ font-style: normal;}
 /* Links & Accents */
 
+.accent{
+  text-shadow: #171717;
+}
+.tagline { 
+  color: #241414;
+}
 /* Images */
+img {
+  max-width: 100%;
+}
 
 /* Hero Section */
+#hero-container { 
+max-width: 1150px;
+margin: auto;
+}
+
+.hero-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border: 3px solid #241414;
+  border-radius: 6px;
+  padding: 12px;
+}
 
 /* Main Content */
-
+main { 
+  padding: auto;
+}
 /* About Section */
-
+.about-us {
+  background-origin: padding-box;
+  padding-bottom: 60px
+}
 /* Specials Section */
 
-/* Visit Us Section */
+.price-now {
+  color: rgb(255, 65, 2);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
 
+.price-was {
+  color: #171717;
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+/* Visit Us Section */
 iframe {
-  width: 100%;
-  height: 350px;
+  width: 100% ;
+  height: 600px; 
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 5px 7px #171717;
 }
 
 /* Footer */
