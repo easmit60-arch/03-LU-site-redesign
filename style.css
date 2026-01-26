@@ -125,7 +125,7 @@ main {
 .special section {
   margin-bottom: 48px;
   display: block;
-  list-style-image: ;
+  list-style-image: none;
   list-style-type: none;
   margin: 0;
   padding: 0;
