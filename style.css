@@ -94,7 +94,7 @@ main {
 /* Specials Section */
 .specials {
   max-width: 1150px;
-  display: list-item;
+  display: inline-block;
   padding-top: 60px;
   padding-bottom: 60px;
   flex-wrap: wrap;
