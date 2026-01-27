@@ -1,13 +1,15 @@
 /* Base Styles */
 body {
+  align-self: center;
   color: rgb(234, 239, 255);
+  align-items: center;
   text-align: center;
-  background-color: rgb(224, 248, 247);
+  background-color: #c4d1f4;
   font-family:
     "Arial", "Helvetica", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
     sans-serif;
   font-size: 16px;
-  color-scheme: #0c0849;
+  color-scheme: #c6c4e9 #c4d1f4 #171717 #241114 #8b0404;
   margin: 0;
   padding: 0;
 }
@@ -41,12 +43,15 @@ p {
 .accent {
   text-shadow: #171717;
   color: #8b0404;
+  font: helvetica;
+  font-style: italic;
 }
 .tagline {
   color: #241414;
+  font: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
 }
 /* Images */
-img {
+.hero-img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
@@ -81,6 +86,7 @@ main {
 }
 /* About Section */
 .about-us {
+  align-self:   center;
   background-color: rgb(255, 255, 255);
   border-radius: 8px;
   box-shadow: 0 5px 7px #171717;
@@ -95,17 +101,21 @@ main {
 }
 
 /* Specials Section */
-.section-specials {
+.specials-section {
+  align-self:   center;
   max-width: 1150px;
   display: inline-flex;
   margin-bottom: 48px;
   background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-size: cover;
+  background-origin: padding-box;
   border-radius: 8px;
   box-shadow: 0 5px 7px #171717;
   padding: 24px;
 }
 
-.special-section {
+.specials-section {
   background-color: rgb(255, 255, 255);
   border-radius: 8px;
   box-shadow: 0 5px 7px #171717;
@@ -115,8 +125,11 @@ main {
   margin: auto;
 }
 
-.specials-list{
+.specials-list {
   display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
   border-radius: 8px;
   box-shadow: 0 5px 7px #171717;
   margin-bottom: 12px;
@@ -134,8 +147,9 @@ main {
 }
 .special-offer {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 8px;
+  margin: 8px;
+  align-items: baseline;
 }
 
 .price-now {
@@ -153,16 +167,17 @@ main {
 
 /* Visit Us Section */
 .visit-us {
+  padding: 24px;
+  margin-bottom: 42px;
+}
+.contact-info {
   background-color: rgb(255, 255, 255);
   border-radius: 8px;
   box-shadow: 0 5px 7px #171717;
-  padding: 24px;
-  margin-bottom: 48px;
-}
-.contact-info {
   font-size: 18px;
   color: #171717;
   margin-bottom: 16px;
+  padding: 16px;
   text-align: justify;
 }
 .address {
