@@ -97,11 +97,6 @@ main {
 .specials {
   max-width: 1150px;
   display: inline-block;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  flex-wrap: wrap;
-  justify-content: justify;
-  gap: 24px;
   margin-bottom: 48px;
   background-color: rgb(255, 255, 255);
   border-radius: 8px;
