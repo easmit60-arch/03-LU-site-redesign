@@ -67,6 +67,8 @@ img {
   border: 3px solid #241414;
   border-radius: 6px;
   padding: 12px;
+  box-shadow: 0 5px 7px #171717;
+
 }
 
 /* Main Content */
@@ -118,6 +120,7 @@ main {
 }
 
 .special-card img {
+  display: inline;
   border-radius: 8px;
   box-shadow: 0 5px 7px #171717;
   margin-bottom: 12px;
