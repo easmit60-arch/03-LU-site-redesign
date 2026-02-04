@@ -108,6 +108,8 @@ main {
   max-width: 1150px;
   width: 100%;
   display: inline-flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 48px;
   background-color: rgb(255, 255, 255);
   background-position: center;
