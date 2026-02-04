@@ -107,6 +107,7 @@ main {
 .specials-section {
   max-width: 1150px;
   width: 100%;
+  align-self: center;
   display: inline-flex;
   justify-content: center;
   align-items: center;
